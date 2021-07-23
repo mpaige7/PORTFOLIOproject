@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    width: 100vw;
+}
+
+body{
+    padding-bottom: 20px;
+    background-color: rgb(241, 241, 241);
+}
+
+/*
+body{overflow: hidden;
+}
+*/
+
+h1,h2,h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.container{
+    width: 80%;
+    max-width: 350px;
+    margin: 30px auto;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.profile-pic{
+    background-image: url(img/hunter-newton-zy--gDmDI7s-unsplash.jpg);
+    background-size: 100%;  
+    height: 250px;
+    background-position: center;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.name-title{
+    padding: 25px 15px;
+    color: white;
+    background-image: linear-gradient(to right, rgb(212, 0, 255) , yellow);
+}
+
+.first-last{
+    margin-bottom: 15px;
+}
+
+.section{
+    padding: 30px 15px;
+    border-bottom: 2px rgb(202, 202, 202) solid;
+    background-color: white;
+}
+
+.section>p{
+    color: grey;
+    font-size: .8rem;
+}
+
+.section:last-of-type{
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-bottom: none;
+}
+
+.fas{
+    margin-right: 5px;
+    color: rgb(0, 0, 0);
+}
+
+li{
+    color: gray;
+}
+
+.experiences{
+    margin-top: 15px;
+    list-style: none;
+}
+
+.header{
+    border-bottom: 2px crimson solid;
+    display: inline-block;
+    margin-bottom: 15px;
+}
